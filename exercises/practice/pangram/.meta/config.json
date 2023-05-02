@@ -1,5 +1,4 @@
 {
-  "blurb": "Determine if a sentence is a pangram.",
   "authors": [
     "Akasurde"
   ],
@@ -31,8 +30,12 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
+  "blurb": "Determine if a sentence is a pangram.",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Pangram"
 }

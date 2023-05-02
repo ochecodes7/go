@@ -1,5 +1,4 @@
 {
-  "blurb": "Create a custom set type.",
   "authors": [],
   "contributors": [
     "alebaffa",
@@ -28,6 +27,10 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
-  }
+  },
+  "blurb": "Create a custom set type."
 }

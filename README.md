@@ -2,27 +2,26 @@
 
 [![Configlet Status](https://github.com/exercism/go/workflows/Configlet%20CI/badge.svg)](https://github.com/exercism/go/actions?query=workflow%3A%22Configlet+CI%22)
 [![Exercise Test Status](https://github.com/exercism/go/workflows/Exercise%20tests/badge.svg)](https://github.com/exercism/go/actions?query=workflow%3A%22Exercise+tests%22)
-[![Gitter chat](https://badges.gitter.im/exercism/go.svg)](https://gitter.im/exercism/go)
 
-Exercism exercises in Go
+Exercism exercises in Go.
 
-## Issues
+## Issues/Feedback
 
-We welcome issues filed at https://github.com/exercism/go/issues for problems of any size.
-Feel free to report typographical errors or poor wording.
-We are most interested in improving the quality of the test suites.
-You can greatly help us improve the quality of the exercises by filing reports of invalid solutions that pass tests or of valid solutions that fail tests.
+⚠️ Please be aware that this repository currently does not accept community contributions. This [blog post](https://exercism.org/blog/freeing-our-maintainers) explains the details.
+
+If you have any feedback or experience problems, you can bring them up in the [Go section of the Exercism forum](https://forum.exercism.org/c/programming/go/19).
+
 
 ## Development setup
 
-Beyond filing issues, if you would like to contribute directly to the Go code in the Exercism Go track, you should follow some standard Go development practices.
-You should have a [recent version of Go](http://golang.org/doc/install) installed, ideally either the current release, the previous release, or tip.
+If you work on this repository, you should follow some standard Go development practices.
+You should have a [recent version of Go](http://golang.org/doc/install) installed, ideally either the current release or previous release.
 
 You will need a github account and you will need to fork exercism/go to your account.
 See [GitHub Help](https://help.github.com/articles/fork-a-repo/) if you are unfamiliar with the process.
 Clone your fork with the command: `git clone https://github.com/<you>/go`.
 Test your clone by cding to the go directory and typing `bin/fetch-golangci-lint` and then
-`bin/test-without-stubs`. You should see tests pass for all exercises.
+`bin/run-tests`. You should see tests pass for all exercises.
 
 Note that unlike most other Go code, it is not necessary to clone this to your GOPATH.
 This is because this repo only imports from the standard library and isn't expected to be imported by other packages.
@@ -45,7 +44,7 @@ Let's walk through an example, non-existent, exercise, which we'll call
 
 ### Exercise configuration
 
-An exercise is [configured](https://github.com/exercism/docs/blob/master/language-tracks/configuration/exercises.md)
+An exercise is configured
 via an entry in the exercises array in [config.json file](/config.json). If `fizzbuzz` is an optional
 exercise, it would have an entry below the core exercises that might look like:
 
@@ -60,7 +59,7 @@ exercise, it would have an entry below the core exercises that might look like:
 }
 ```
 
-See [Exercise Configuration](https://github.com/exercism/docs/blob/master/language-tracks/configuration/exercises.md)
+See [Exercism Docs: config.json](https://exercism.org/docs/building/tracks/config-json)
 for more info.
 
 ### Exercise files: Overview

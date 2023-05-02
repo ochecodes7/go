@@ -1,5 +1,4 @@
 {
-  "blurb": "Determine if a number is an Armstrong number.",
   "authors": [
     "ilmanzo"
   ],
@@ -27,8 +26,12 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
+  "blurb": "Determine if a number is an Armstrong number.",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Narcissistic_number"
 }

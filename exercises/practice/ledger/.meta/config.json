@@ -1,5 +1,4 @@
 {
-  "blurb": "Refactor a ledger printer.",
   "authors": [
     "pminten"
   ],
@@ -28,6 +27,10 @@
     ],
     "example": [
       ".meta/example.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
-  }
+  },
+  "blurb": "Refactor a ledger printer."
 }

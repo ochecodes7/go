@@ -1,5 +1,4 @@
 {
-  "blurb": "Make a chain of dominoes.",
   "authors": [
     "leenipper"
   ],
@@ -26,6 +25,10 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
-  }
+  },
+  "blurb": "Make a chain of dominoes."
 }

@@ -11,8 +11,7 @@ After some discussion, the team have agreed that the unit of temperature will be
 
 Make the `TemperatureUnit` type implement the `Stringer` interface by adding a `String` method to it. This method must return the string `"°C"` if the temperature unit is Celsius or `"°F"` if the temperature unit is Fahrenheit.
 
-```go 
-temperatureUnit := Celsius
+```go
 celsiusUnit := Celsius
 fahrenheitUnit := Fahrenheit
 
@@ -98,7 +97,7 @@ fmt.Sprint(windSpeedYesterday)
 // Output: 22 mph
 ```
 
-## 5. Implement the `Stringer` interface for type `MetData`
+## 5. Implement the `Stringer` interface for type `MeteorologyData`
 
 Meteorological data specifies location, temperature, wind direction, wind speed
 and humidity. It should be formatted as in the example below:

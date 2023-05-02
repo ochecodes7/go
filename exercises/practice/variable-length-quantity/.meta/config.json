@@ -1,5 +1,4 @@
 {
-  "blurb": "Implement variable length quantity encoding and decoding.",
   "authors": [
     "mattetti"
   ],
@@ -33,8 +32,12 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
+  "blurb": "Implement variable length quantity encoding and decoding.",
   "source": "A poor Splice developer having to implement MIDI encoding/decoding.",
   "source_url": "https://splice.com"
 }

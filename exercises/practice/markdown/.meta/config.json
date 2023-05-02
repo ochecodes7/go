@@ -1,5 +1,4 @@
 {
-  "blurb": "Refactor a Markdown parser.",
   "authors": [
     "ilmanzo"
   ],
@@ -25,6 +24,10 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
-  }
+  },
+  "blurb": "Refactor a Markdown parser."
 }

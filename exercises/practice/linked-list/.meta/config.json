@@ -1,5 +1,4 @@
 {
-  "blurb": "Implement a doubly linked list",
   "authors": [
     "exklamationmark"
   ],
@@ -26,7 +25,11 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
+  "blurb": "Implement a doubly linked list",
   "source": "Classic computer science topic"
 }

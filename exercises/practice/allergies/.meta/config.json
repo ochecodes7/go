@@ -1,5 +1,4 @@
 {
-  "blurb": "Given a person's allergy score, determine whether or not they're allergic to a given item, and their full list of allergies.",
   "authors": [
     "zilkey"
   ],
@@ -33,8 +32,12 @@
     ],
     "editor": [
       "cases_test.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
+  "blurb": "Given a person's allergy score, determine whether or not they're allergic to a given item, and their full list of allergies.",
   "source": "Jumpstart Lab Warm-up",
   "source_url": "http://jumpstartlab.com"
 }

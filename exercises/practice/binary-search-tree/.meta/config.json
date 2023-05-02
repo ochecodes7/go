@@ -1,5 +1,4 @@
 {
-  "blurb": "Insert and search for numbers in a binary tree.",
   "authors": [
     "zilkey"
   ],
@@ -29,8 +28,12 @@
     ],
     "example": [
       ".meta/example.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
+  "blurb": "Insert and search for numbers in a binary tree.",
   "source": "Josh Cheek",
   "source_url": "https://twitter.com/josh_cheek"
 }

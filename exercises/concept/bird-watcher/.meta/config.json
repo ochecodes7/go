@@ -1,5 +1,4 @@
 {
-  "blurb": "Count the birds in your garden with for loops.",
   "authors": [
     "sachinmk27"
   ],
@@ -15,9 +14,13 @@
     ],
     "exemplar": [
       ".meta/exemplar.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
   },
   "forked_from": [
     "javascript/bird-watcher"
-  ]
+  ],
+  "blurb": "Count the birds in your garden with for loops."
 }

@@ -1,5 +1,4 @@
 {
-  "blurb": "Learn about errors and interfaces while feeding cows on the farm.",
   "authors": [
     "brugnara",
     "jmrunkle"
@@ -7,7 +6,6 @@
   "contributors": [
     "junedev"
   ],
-  "forked_from": [],
   "files": {
     "solution": [
       "the_farm.go"
@@ -20,6 +18,10 @@
     ],
     "editor": [
       "types.go"
+    ],
+    "invalidator": [
+      "go.mod"
     ]
-  }
+  },
+  "blurb": "Learn about errors and interfaces while feeding cows on the farm."
 }
